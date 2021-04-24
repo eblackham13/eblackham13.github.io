@@ -7,9 +7,9 @@
     <meta name="description" content="Assignment portal for Elyse Blackham in WDD 230: Web Frontend Development at Brigham Young University - Idaho.">
 <link rel="stylesheet" href="css/stylesheet.css">
 <script>
-    var string = document.lastModified;
-    var object = document.getElementById("lastModified");
-    object.innerHTML = "Last Updated: " + string;
+    var lastmod = document.lastModified;
+    var lastModElement = document.getElementById("lastModified");
+    lastModElement.innerHTML = "Last Updated: " + lastmod;
     var d = new Date();
     var n = d.getFullYear();
     var yearElement = document.querySelector("#curyear");
