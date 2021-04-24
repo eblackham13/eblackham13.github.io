@@ -1,14 +1,13 @@
 .header {
-   background-color: #2A5529;
-   
+  background-color: #2a5529;
 }
 
 .mePhoto {
-width: 100px;
-height: auto;
-float: right;
-box-shadow: 20px 20px 20px;
+  width: 100px;
+  height: auto;
+  float: right;
+  box-shadow: 20px 20px 20px;
 }
-h1{
-    color: white;
+.name {
+  color: white;
 }
