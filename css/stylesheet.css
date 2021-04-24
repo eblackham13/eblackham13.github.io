@@ -1,10 +1,11 @@
-header {
+.header {
    background-color: #2A5529;
-   border: #cfe6e9;
-   border-style: dashed;
+   
 }
 
 .mePhoto {
-width: 300px;
+width: 100px;
 height: auto;
+float: right;
+box-shadow: 20px 20px 20px;
 }
