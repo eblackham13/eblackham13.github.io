@@ -6,6 +6,16 @@
     <title> Assignment Portal</title>
     <meta name="description" content="Assignment portal for Elyse Blackham in WDD 230: Web Frontend Development at Brigham Young University - Idaho.">
 <link rel="stylesheet" href="css/stylesheet.css">
+<script>
+    var string = document.lastModified;
+    var object = document.getElementById("lastModified");
+    object.innerHTML = "Last Updated: " + string;
+    var d = new Date();
+    var n = d.getFullYear();
+    var yearElement = document.querySelector("#curyear");
+    yearElement.innerHTML = n;
+
+</script>
 </head>
 <header>
     <h1>Elyse Blackham</h1>
@@ -21,8 +31,8 @@
 
 </body>
 <footer>
-    <p class="footer"> &copy; 2021 | Elyse Blackham | Idaho | <a href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a></p>
-    
+    <p class="footer"> &copy; <span id="curyear"></span> | Elyse Blackham | Idaho | <a href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a></p>
+    <p id="lastModified"></p>
     
 </footer>
 </html>
