@@ -1,5 +1,7 @@
 header {
    background-color: #2A5529;
+   border: #cfe6e9;
+   border-style: dashed;
 }
 
 .mePhoto {
