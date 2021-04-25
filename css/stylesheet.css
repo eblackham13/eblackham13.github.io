@@ -4,7 +4,7 @@ header {
 }
 
 .mePhoto {
-  width: 150px;
+  width: 100px;
   height: auto;
   float: right;
   box-shadow: 30px 30px 20px;
@@ -17,4 +17,12 @@ footer {
   background-color: #2a5529;
   color: white;
   text-align: center;
+  border-radius: 1em;
+}
+a:hover {
+color: #EFA9AE
+
+}
+.link {
+    color:white;
 }
