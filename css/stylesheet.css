@@ -2,9 +2,7 @@ header {
   background-color: #2a5529;
   border-radius: 1em;
 }
-body{
-    background-color: #E4EEF1;
-}
+
 .mePhoto {
   width: 150px;
   height: auto;
@@ -22,8 +20,8 @@ footer {
   border-radius: 1em;
 }
 a:hover {
-color: white
+  color: white;
 }
 .link {
-    color:#EFA9AE;
+  color: #efa9ae;
 }
