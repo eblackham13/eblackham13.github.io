@@ -6,7 +6,12 @@ footer {
   text-align: center;
   border-radius: 1em;
 }
-
+header,
+body,
+footer {
+  max-width: 750px;
+  margin: 0 auto;
+}
 header img {
   width: 200px;
   height: auto;
@@ -18,9 +23,9 @@ body {
   font-size: 16px;
 }
 
-a:hover {
-  color: #917891;
-}
 .link {
   color: #efa9ae;
+}
+a:hover {
+  color: #917891;
 }
