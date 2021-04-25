@@ -1,13 +1,17 @@
 .header {
-  background-color: #2a5529;
-}
-
-.mePhoto {
-  width: 200px;
-  height: auto;
-  float: right;
-  box-shadow: 20px 20px 20px;
-}
-.name {
-  color: white;
-}
+    background-color: #2a5529;
+  }
+  
+  .mePhoto {
+    width: 200px;
+    height: auto;
+    float: right;
+    box-shadow: 30px 30px 20px;
+  }
+  .name {
+    color: white;
+    text-align: center;
+  }
+  footer{
+      background-color: #2a5529;
+  }
