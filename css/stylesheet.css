@@ -1,25 +1,31 @@
-header {
+header,
+footer {
+  padding: 1rem;
   background-color: #2a5529;
+  color: white;
+  text-align: center;
   border-radius: 1em;
 }
 
-.mePhoto {
+header img {
   width: 200px;
   height: auto;
   float: right;
   box-shadow: 30px 30px 20px;
 }
+
+body {
+  font-size: 16px;
+}
+
 .name {
   color: white;
   text-align: center;
 }
-footer {
-  background-color: #2a5529;
-  color: white;
-  text-align: center;
-  border-radius: 1em;
-}
 
+a:hover {
+  color: white;
+}
 .link {
   color: #efa9ae;
 }
